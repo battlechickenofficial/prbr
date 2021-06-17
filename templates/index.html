@@ -1,0 +1,11 @@
+{% extends "banner.html" %}
+
+{% block main %}
+<div class="uibox">
+    <h3> Welcome! <br> Enter Game Code: </h3>
+    <form action="/" method="post">
+        <input autofocus class="field" name="id" placeholder="Room Code" type="text">
+        <button class="submit" type="submit">Join</button>
+    </form>
+</div>
+{% endblock %}
